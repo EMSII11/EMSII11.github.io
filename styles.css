@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Meddon);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+body, ul, li {
+  margin: 0;
+  padding: 07;
+}
+
+body {
+  background-color: #ccc;
+}
+
+header {
+  width: 99.90%;              /*yung pinaka header*/
+  height: 75px;                /*yung pinaka header*/
+  box-sizing: border-box;
+  background-color: #373948;
+  position: fixed;
+  top: 04px;
+  left: 00px;
+  padding: 0px 10px 10px 30px;
+}
+
+header h1 {
+  float: left;                   /*yung nav*/
+  margin: 5px 0px;               /*bread and p... na name margin niya*/
+  color: white;
+  font-family: 'Meddon', cursive;
+}
+
+header nav ul {
+  height: 70px;
+  float: right;                  /*kung san naka pwesto yung nav bar*/
+}
+
+header nav ul li {
+  height: 70px;
+  display: inline-block;        /*para naka one line yung nav bar*/
+}
+
+header nav ul li a {
+  height: 30px;                /*yung kulay sa bawat nav bar*/
+  display: block;              /*para nandun yung nav bar sa loob nung blue*/
+  padding: 17px 25px;          /*length and width nav bar*/
+  color: white;                /*image sa loob ng nav bar*/
+  font-size: 2.5em;
+  text-decoration: none;       /*para wala siyang underline*/
+  border-top: 06px solid #373948;
+  border-bottom: 3px solid #373948;
+  transition: color 1s ease;   /*pag clinick yung nav bar*/
+}
+
+header nav ul li a:hover{
+  color: #373948;      /*yung magiging kulay nung transition sa nav bar*/
+}
+
+/*para sa nav bar, background nila*/
+header nav ul li a.link-1 { background: url(http://www.yourcupofcake.com/wp-content/uploads/2013/08/Strawberry-Red-Velvet-Cupcakes1.jpg)}
+header nav ul li a.link-2 { background-color: #e6567a; }
+header nav ul li a.link-3 { background-color: #eac14d; } 
+header nav ul li a.link-4 { background-color: #5bd999; }
+
+
+section {
+  width: 100%;
+  height: 1000px;
+  box-sizing: border-box;
+  padding: 70px;
+  overflow: hidden;
+}
+
+section#home { background: url(https://static.pexels.com/photos/6562/coffee-cup-bed-bedroom.jpeg)}
+section#about { background: url(https://wallpaperscraft.com/image/bread_pastries_ears_71482_1920x1200.jpg)}
+section#clients { background: url(http://eskipaper.com/images/cupcakes-hd-1.jpg) }
+section#contact-us { background: url(http://www.yourcupofcake.com/wp-content/uploads/2013/08/Strawberry-Red-Velvet-Cupcakes1.jpg)} 
+
+section h2 {
+  color: White;                    /*yung color sa text: home, contact....*/
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 3em;
+  margin: 0px;
+}
+
+section .illustration {
+  width: 1000px;
+  height: 500px;
+  margin-top: 05px;
+}
+
+section p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1em; 
+}
